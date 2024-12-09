@@ -79,4 +79,69 @@ Program ini memanfaatkan **Object-Oriented Programming (OOP)** dengan class `Mah
    - Jika nama tidak ditemukan, program mencetak pesan bahwa data tidak ditemukan.
 
 ---
+## Contoh Penggunaan
+
+```python
+if __name__ == "__main__":
+    mahasiswa = Mahasiswa()
+
+    # Menambahkan data mahasiswa
+    mahasiswa.tambah("Dzaki", 90)
+    mahasiswa.tambah("Arif", 80)
+    mahasiswa.tambah("Rahman", 85)
+    mahasiswa.tambah("Santoso", 90)
+
+    # Menampilkan data mahasiswa
+    mahasiswa.tampilkan()
+
+    # Mengubah data mahasiswa
+    mahasiswa.ubah("Rahman", 90)
+    mahasiswa.ubah("Dzaki", 100)
+
+    # Menghapus data mahasiswa
+    mahasiswa.hapus("Santoso")
+
+    # Menampilkan data mahasiswa setelah perubahan
+    mahasiswa.tampilkan()
+```
+
+---
+
+## Hasil Eksekusi
+
+1. **Menambahkan Data**  
+   ```
+   Data Dzaki dengan nilai 90 berhasil ditambahkan.
+   Data Arif dengan nilai 80 berhasil ditambahkan.
+   Data Rahman dengan nilai 85 berhasil ditambahkan.
+   Data Santoso dengan nilai 90 berhasil ditambahkan.
+   ```
+
+2. **Menampilkan Data Awal**  
+   ```
+   Daftar Nilai Mahasiswa:
+   Dzaki: 90
+   Arif: 80
+   Rahman: 85
+   Santoso: 90
+   ```
+
+3. **Mengubah Data**  
+   ```
+   Data Rahman berhasil diubah menjadi 90.
+   Data Dzaki berhasil diubah menjadi 100.
+   ```
+
+4. **Menghapus Data**  
+   ```
+   Data Santoso berhasil dihapus.
+   ```
+
+5. **Menampilkan Data Akhir**  
+   ```
+   Daftar Nilai Mahasiswa:
+   Dzaki: 100
+   Arif: 80
+   Rahman: 90
+   ```
 
