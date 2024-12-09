@@ -144,4 +144,9 @@ if __name__ == "__main__":
    Arif: 80
    Rahman: 90
    ```
+## screenshout Hasil vsc
+
+![Screenshot 2024-12-09 144836](https://github.com/user-attachments/assets/11fa6c92-22d9-4e9f-b1fb-ea68b56a53a5)
+
+## screenshout Flowchart
 
